@@ -1,0 +1,60 @@
+<div ng-controller="homeC" ng-init="getItems();getcartItems()">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">HACKOHIRE</a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li ng-click=logout() style="cursor: pointer;">
+                    <a>
+                        <span class="glyphicon glyphicon-log-in"></span> Logout</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Please Fill your Profile</h2>
+            </div>
+            <div class="col-md-5">
+                <form>
+                    <div class="form-group">
+                        <label for="title">Current Title:</label>
+                        <input type="text" class="form-control" ng-model="title">
+                    </div>
+                    <div class="form-group">
+                        <label for="company">Current Company:</label>
+                        <input type="text" class="form-control" ng-model="company">
+                    </div>
+                    <div class="form-group">
+                        <label for="cwork">Companies you would like to work for:</label>
+                        <input type="text" class="form-control" ng-model="cwork">
+                    </div>
+                    <div class="form-group">
+                        <label for="pwork">Project you would like to work for:</label>
+                        <input type="text" class="form-control" ng-model="pwork">
+                    </div>
+                    <div class="form-group">
+                            <label for="twork">Title/Position you are working towards:</label>
+                            <input type="text" class="form-control" ng-model="twork">
+                        </div>
+
+                    <div class="form-group">
+                            <label for="s2goal">2 year salary goal:</label>
+                            <input type="text" class="form-control" ng-model="s2goal">
+                        </div>
+
+                    <div class="form-group">
+                            <label for="s5goal">5 year salary goal:</label>
+                            <input type="text" class="form-control" ng-model="s5goal">
+                        </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>
+</div>
