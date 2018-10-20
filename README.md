@@ -3,7 +3,9 @@
 ##### Clone Or Download the File from github.
 
 Execute the Following Commands to Run the Project.
-
+```sh
+$ cd App
+```
 
 ##### Usage
 Execute follwing command to run the Project
